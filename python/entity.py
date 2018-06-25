@@ -12,7 +12,6 @@ class Entity:
     self.name = name
     self.blocks = blocks
     self.render_order = render_order
-    print(name + ' ' + str(self.render_order.value))
 
     self.fighter = fighter
     self.ai = ai
