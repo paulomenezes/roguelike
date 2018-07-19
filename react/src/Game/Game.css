@@ -1,0 +1,39 @@
+.row {
+  display: flex;
+}
+
+.cel {
+  width: 10px;
+  height: 11px;
+
+  font-size: 10px;
+
+  position: relative;
+}
+
+.cel .tile {
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+}
+
+.cel .tile.ground.explored {
+  background-color: rgb(50, 50, 150);
+}
+
+.cel .tile.wall.explored {
+  background-color: rgb(0, 0, 100);
+}
+
+.cel .tile.ground.visible {
+  background-color: rgb(200, 180, 50);
+}
+.cel .tile.wall.visible {
+  background-color: rgb(130, 110, 50);
+}
+
+.cel .entity {
+  position: absolute;
+}
